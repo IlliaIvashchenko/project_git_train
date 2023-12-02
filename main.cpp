@@ -2,10 +2,10 @@
 
 int Policz(int a, int b)
 {
-    return a+b;
+    return a*b;
 }
 
 int main() {
-    std::cout << "Hello, World!" << Policz(6, 9) << std::endl;
+    std::cout << " a * b = " << Policz(7, 10) << std::endl;
     return 0;
 }
